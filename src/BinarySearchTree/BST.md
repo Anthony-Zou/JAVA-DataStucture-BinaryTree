@@ -10,14 +10,17 @@ The properties that seperate a binary search tree from a regular binary tree is
 3. Both subtrees of each node are also BST
 
 ### Insertion Algorithm
-```If root == NULL 
+```
+If root == NULL 
     return NULL;
 If number == root->data 
     return root->data;
 If number < root->data 
     return search(root->left)
 If number > root->data 
-    return search(root->right)```
+    return search(root->right)
+```
+    
 Binary Search Tree Complexities
 Time Complexity
 |Operation|	Best Case Complexity	|Average Case Complexity	|Worst Case Complexity|
