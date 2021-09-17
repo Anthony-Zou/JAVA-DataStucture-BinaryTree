@@ -1,4 +1,4 @@
-###BINARY Search tree(BST)
+### BINARY Search tree(BST)
 Binary search tree is a data structure that quickly allows us to maintain a sorted list of numbers.
 
 - It is called a binary tree because each tree node has a maximum of two children.
