@@ -1,4 +1,4 @@
-# JAVA-DataStucture-DSA.BinaryTree
+# JAVA-DataStucture-DSA.BalancedBinaryTree.CompleteBinaryTree.BinaryTree
 ####Learning materials sourced from programiz
 
 What is an Algorithm?

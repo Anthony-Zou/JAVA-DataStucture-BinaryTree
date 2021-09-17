@@ -1,7 +1,7 @@
 package DSA;//Operation on Fibonacci DSA.Heap in Java
 // Operations on Fibonacci DSA.Heap in Java
 
-// DSA.Node creation
+// Node creation
 class node {
     node parent;
     node left;
@@ -366,4 +366,4 @@ Find Min	    O(1)
 Union	        O(1)
 Extract Min	    O(log n)
 Decrease Key	O(1)
-Delete DSA.Node	    O(log n)*/
+Delete Node	    O(log n)*/
