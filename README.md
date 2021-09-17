@@ -1,4 +1,4 @@
-# JAVA-DataStucture-BinaryTree
+# JAVA-DataStucture-DSA.BinaryTree
 ####Learning materials sourced from programiz
 
 What is an Algorithm?
@@ -41,14 +41,14 @@ Popular linear data structures are:
 
 ###1. Array Data Structure
    In an array, elements in memory are arranged in continuous memory. All the elements of an array are of the same type. And, the type of elements that can be stored in the form of arrays is determined by the programming language.
-###2. Stack Data Structure
+###2. DSA.Stack Data Structure
 In stack data structure, elements are stored in the LIFO principle. That is, the last element stored in a stack will be removed first.
 
 It works just like a pile of plates where the last plate kept on the pile will be removed first. 
-###3. Queue Data Structure
+###3. DSA.Queue Data Structure
 Unlike stack, the queue data structure works in the FIFO principle where first element stored in the queue will be removed first.
 
 It works just like a queue of people in the ticket counter where first person on the queue will get the ticket first. 
 ###4. Linked List Data Structure
-In linked list data structure, data elements are connected through a series of nodes. And, each node contains the data items and address to the next node.
+In linked list data structure, data elements are connected through a series of nodes. And, each DSA.node contains the data items and address to the next DSA.node.
 

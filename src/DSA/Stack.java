@@ -1,6 +1,5 @@
 package DSA;
-import java.util.*;
-import java.io.*;
+
 public class Stack {
     private int arr[];
     private int top;
@@ -73,10 +72,10 @@ public class Stack {
 }
 
 /*
-Stack Time Complexity
+DSA.Stack Time Complexity
 For the array-based implementation of a stack, the push and pop operations take constant time, i.e. O(1).
 
-Applications of Stack Data Structure
+Applications of DSA.Stack Data Structure
 Although stack is a simple data structure to implement, it is very powerful. The most common uses of a stack are:
 
 To reverse a word - Put all the letters in a stack and pop them out.

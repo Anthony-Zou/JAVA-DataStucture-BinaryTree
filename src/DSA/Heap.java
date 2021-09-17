@@ -79,7 +79,7 @@ public class Heap {
         h.insert(array, 5);
         h.insert(array, 2);
 
-        System.out.println("Max-Heap array: ");
+        System.out.println("Max-DSA.Heap array: ");
         h.printArray(array, size);
 
         h.deleteNode(array, 4);
@@ -89,8 +89,8 @@ public class Heap {
 }
 
 /*
-Heap Data Structure Applications
-Heap is used while implementing a priority queue.
+DSA.Heap Data Structure Applications
+DSA.Heap is used while implementing a priority queue.
 Dijkstra's Algorithm
-Heap Sort
+DSA.Heap Sort
 */

@@ -1,8 +1,7 @@
 package DSA;
 
-
 public class LinkedList {
-    //Creating a node
+    //Creating a DSA.node
     Node head;
 
     static class Node {
@@ -23,7 +22,7 @@ public class LinkedList {
         head = new_node;
     }
 
-    // Insert after a node
+    // Insert after a DSA.node
     public void insertAfter(Node prev_node, int new_data) {
         if (prev_node == null) {
             System.out.println("The given previous noded cannot be null");
@@ -51,7 +50,7 @@ public class LinkedList {
         return;
     }
 
-    //Delete a node
+    //Delete a DSA.node
     void deleteNode(int position) {
         if (head == null) {
             return;
@@ -70,14 +69,14 @@ public class LinkedList {
             return;
         }
 
-        //Remove the node
+        //Remove the DSA.node
         Node next = temp.next.next;
 
         temp.next = next;
 
     }
 
-    //Search a node
+    //Search a DSA.node
     boolean search(Node head, int key) {
         Node current = head;
         while (current != null) {
@@ -99,7 +98,7 @@ public class LinkedList {
             return;
         } else {
             while (current != null) {
-                // index points to the node next to current
+                // index points to the DSA.node next to current
                 index = current.next;
 
                 while (index != null) {

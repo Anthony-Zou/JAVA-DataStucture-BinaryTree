@@ -1,8 +1,8 @@
 package DSA;
 
-//Circular Queue implementation in JAVA
+//Circular DSA.Queue implementation in JAVA
 public class CQueue {
-    int SIZE = 5;//SIZE of the Circular Queue
+    int SIZE = 5;//SIZE of the Circular DSA.Queue
     int front, rear;
     int items[] = new int[SIZE];
 
@@ -35,7 +35,7 @@ public class CQueue {
     void enQueue(int element) {
         if (isFull())
         {
-            System.out.println("Queue is full");
+            System.out.println("DSA.Queue is full");
         } else {
             if(front == -1)
             {
@@ -51,7 +51,7 @@ public class CQueue {
     int deQueue(){
         int element;
         if(isEmpty()){
-            System.out.println("Queue is empty");
+            System.out.println("DSA.Queue is empty");
             return (-1);
         } else {
             element = items[front];
@@ -68,10 +68,10 @@ public class CQueue {
     }
 
     void display() {
-        /* Function to display status of Circular Queue */
+        /* Function to display status of Circular DSA.Queue */
         int i;
         if (isEmpty()) {
-            System.out.println("Empty Queue");
+            System.out.println("Empty DSA.Queue");
         } else {
             System.out.println("Front -> " + front);
             System.out.println("Items -> ");
@@ -116,10 +116,10 @@ public class CQueue {
 
 
 }
-/*Circular Queue Complexity Analysis
+/*Circular DSA.Queue Complexity Analysis
 The complexity of the enqueue and dequeue operations of a circular queue is O(1) for (array implementations).
 
-Applications of Circular Queue
+Applications of Circular DSA.Queue
 CPU scheduling
 Memory management
 Traffic Management*/

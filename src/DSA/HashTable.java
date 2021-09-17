@@ -1,5 +1,4 @@
-package DSA;
-// Java program to demonstrate working of hashTable
+package DSA;// Java program to demonstrate working of hashTable
 import java.util.*;
 public class HashTable {
     public static void main (String args[])

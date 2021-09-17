@@ -1,6 +1,5 @@
 package DSA;
-import java.util.*;
-import java.io.*;
+
 public class Queue {
     int SIZE = 5;
     int items[] = new int[SIZE];
@@ -31,7 +30,7 @@ public class Queue {
     {
         if(isFull())
         {
-            System.out.println("Queue is full");
+            System.out.println("DSA.Queue is full");
         } else {
             if( front == -1)
             {
@@ -46,7 +45,7 @@ public class Queue {
     {
         int element;
         if(isEmpty()){
-            System.out.println("Queue is empty");
+            System.out.println("DSA.Queue is empty");
             return (-1);
         } else {
             element = items[front];
@@ -61,10 +60,10 @@ public class Queue {
     }
 
     void display(){
-        /* Function to display elements of Queue */
+        /* Function to display elements of DSA.Queue */
         int i;
         if(isEmpty()){
-            System.out.println("Empty Queue");
+            System.out.println("Empty DSA.Queue");
         } else {
             System.out.println("\n Front index-> "+ front);
             System.out.println("Itens -> ");
@@ -102,8 +101,8 @@ public class Queue {
 /*A queue is a useful data structure in programming. It is similar to the ticket queue outside a cinema hall,
  where the first person entering the queue is the first person who gets the ticket.
 
-Queue follows the First In First Out (FIFO) rule - the item that goes in first is the item that comes out first.
-Basic Operations of Queue
+DSA.Queue follows the First In First Out (FIFO) rule - the item that goes in first is the item that comes out first.
+Basic Operations of DSA.Queue
 A queue is an object (an abstract data structure - ADT) that allows the following operations:
 
 Enqueue: Add an element to the end of the queue
@@ -111,8 +110,8 @@ Dequeue: Remove an element from the front of the queue
 IsEmpty: Check if the queue is empty
 IsFull: Check if the queue is full
 Peek: Get the value of the front of the queue without removing it
-Working of Queue
-Queue operations work as follows:
+Working of DSA.Queue
+DSA.Queue operations work as follows:
 
 two pointers FRONT and REAR
 FRONT track the first element of the queue
@@ -134,7 +133,7 @@ The complexity of enqueue and dequeue operations in a queue
  using an array is O(1). If you use pop(N) in python code,
  then the complexity might be O(n) depending on the position
  of the item to be popped.*/
-/*Applications of Queue
+/*Applications of DSA.Queue
 CPU scheduling, Disk Scheduling
 When data is transferred asynchronously between two processes.
 The queue is used for synchronization.

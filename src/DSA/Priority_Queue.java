@@ -1,4 +1,5 @@
 package DSA;
+
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
@@ -15,7 +16,7 @@ import java.util.PriorityQueue;
     }
 }
 
-// StringLengthComparator.java
+// DSA.StringLengthComparator.java
 
 
  class StringLengthComparator implements Comparator<String> {
@@ -59,10 +60,10 @@ However, in other cases, we can assume the element with the lowest value as the 
 
 We can also set priorities according to our needs.*/
 
-/*Difference between Priority Queue and Normal Queue
+/*Difference between Priority DSA.Queue and Normal DSA.Queue
 In a queue, the first-in-first-out rule is implemented whereas, in a priority queue, the values are removed on the basis of priority.
 The element with the highest priority is removed first.*/
-/*Implementation of Priority Queue
+/*Implementation of Priority DSA.Queue
 Priority queue can be implemented using an array, a linked list, a heap data structure,
 or a binary search tree. Among these data structures, heap data structure provides an efficient implementation of priority queues.
 
@@ -72,6 +73,6 @@ A max-heap is implement is in the following operations. */
 /*
 Operations	    peek	    insert	        delete
 Linked List	        O(1)	O(n)	    O(1)
-Binary Heap	        O(1)	O(log n)	O(log n)
+Binary DSA.Heap	        O(1)	O(log n)	O(log n)
 Binary Search Tree	O(1)	O(log n)	O(log n)
 */

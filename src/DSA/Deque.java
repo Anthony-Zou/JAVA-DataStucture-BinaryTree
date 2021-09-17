@@ -1,6 +1,4 @@
-package DSA;
-
-// Deque implementation in Java
+package DSA;// DSA.Deque implementation in Java
 
 class Deque {
     static final int MAX = 100;
@@ -66,11 +64,11 @@ class Deque {
 
     void deletefront() {
         if (isEmpty()) {
-            System.out.println("Queue Underflow\n");
+            System.out.println("DSA.Queue Underflow\n");
             return;
         }
 
-        // Deque has only one element
+        // DSA.Deque has only one element
         if (front == rear) {
             front = -1;
             rear = -1;
