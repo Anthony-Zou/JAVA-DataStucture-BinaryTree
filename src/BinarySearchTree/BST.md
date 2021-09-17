@@ -8,3 +8,15 @@ The properties that seperate a binary search tree from a regular binary tree is
 1. All nodes of the left subtree are less than the root node
 2. All nodes of the t=right subtree are more  tahn the root node
 3. Both subtrees of each node are also BST
+
+Binary Search Tree Complexities
+Time Complexity
+|Operation|	Best Case Complexity	|Average Case Complexity	|Worst Case Complexity|
+|-----------|--------------------|----------------------------|----------------------|
+|Search	    |O(log n)|	O(log n)	|O(n)|
+|Insertion	|O(log n)|  O(log n)	|O(n)|
+|Deletion	|O(log n)|	O(log n)	|O(n)|
+Here, n is the number of nodes in the tree.
+
+Space Complexity
+The space complexity for all the operations is O(n).
